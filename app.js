@@ -210,3 +210,33 @@
 // console.log(kichikKatta());
 
 // 17.
+// function includess() {
+//     let res = "Hello, world!";
+//     let res1 = res.includes("world");
+//     return res1;
+// }
+// console.log(includess());
+
+// 18.
+// function statsWith() {
+//     let res = "Hello, world!";
+//     let res1 = res.startsWith("Hello");
+//     return res1;
+// }
+// console.log(statsWith());
+
+// 19.
+// function endWith() {
+//     let res = "Hello, world!";
+//     let res1 = res.endsWith("world");
+//     return res1;
+// }
+// console.log(endWith());
+
+// 20.
+// function charat() {
+//     let res = "Hello, world!";
+//     let res2 = res.charAt(7);
+//     return res2;
+// }
+// console.log(charat());
