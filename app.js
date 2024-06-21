@@ -240,3 +240,20 @@
 //     return res2;
 // }
 // console.log(charat());
+
+// 21.
+// let fruits = ['olma', 'banan', 'apelsin', 'olma', 'banan']
+// let res  = [];
+// fruits.forEach(function (value, indexForEach) {
+//     let isExist = fruits.find(function (el, indexFind) {
+//         return el == value && indexFind != indexForEach
+//     })
+//     if (!isExist){
+//         res.push(value);
+//     }
+//     console.log(isExist);
+// })
+// console.log(res);
+
+
+// 22.
