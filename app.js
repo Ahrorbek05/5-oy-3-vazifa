@@ -87,4 +87,126 @@
 // console.log(topuvchi(students));
 
 // 6.
+// function engKichikYosh(students) {
+//     let yosh = 0;
+//     let kichik = 0;
+  
+//     for (const i of students) {
+//       const kichik = i.age;
+//       if (kichik < yosh) {
+//         kichik = kichik;
+//         yosh = i;
+//       }
+//     }
+//     return kichik;
+//   }
+// console.log(engKichikYosh());
 
+// 7.
+// const students = [
+//     { name: 'Alice', age: 20, score: 85, status: 'active' },
+//     { name: 'Bob', age: 22, score: 92, status: 'inactive' }
+//   ];
+//   const b = { name: 'Alice', age: 21, score: 90, status: 'active' };
+
+// function yangilash(a, b) {
+//     let c = a.findIndex(a => a.name === a.name);
+//     if (c !== -1) {
+//       a[c] = b;
+//       return true;
+//     } else {
+//       return false;
+//     }
+// }
+// console.log(yangilash(students));
+
+// 8.
+// const students = [
+//     { name: 'Alice', age: 20, score: 85, status: 'active' },
+//     { name: 'Bob', age: 22, score: 92, status: 'inactive' },
+//     { name: 'Charlie', age: 23, score: 88, status: 'active' }
+// ];
+// function obeyktlar(students) {
+//     const statuslar = [];
+//     for (const a of students) {
+//       statuslar.push(a.status);
+//     }
+//     return statuslar;
+// }
+// console.log(obeyktlar(students));
+
+// 9.
+// const students1 = [
+//     { name: 'Alice', age: 20, score: 85, status: 'active' },
+//     { name: 'Bob', age: 22, score: 92, status: 'inactive' }
+//   ];
+//   const students2 = [
+//     { name: 'Charlie', age: 23, score: 88, status: 'active' },
+//     { name: 'David', age: 21, score: 90, status: 'inactive' }
+//   ];
+// let res = students1.concat(students2);
+// console.log(res);
+
+// 10.
+// function replaceAll(arg) {
+//     return arg.replace('a', '@');
+// }
+// let res = 'Javascript';
+// let res1 = replaceAll(res)
+// console.log(replaceAll(res1));
+
+// 11.
+// function BoshJoyLAr(tr) {
+//     let res = "    hello world    ";
+//     return res.trim();
+// }
+// console.log(BoshJoyLAr());
+
+// 12.
+// function ozgartirish() {
+//     let res = ["Hello", "world", "from", "JavaScript"];
+//     return res.join(",");
+// }
+// console.log(ozgartirish());
+
+// 13.
+// const students = [
+//     { name: 'Alice', age: 20, score: 85, status: 'active' },
+//     { name: 'Bob', age: 22, score: 92, status: 'inactive' },
+//     { name: 'Charlie', age: 23, score: 88, status: 'active' }
+//   ];
+// function deletedName() {
+//     for (const a of students) {
+//         if(a.name === 'Bob'){
+        
+//         }
+//     }
+// }
+// delete students.name
+// console.log(deletedName());
+
+// 14.
+// function ajratish() {
+//     let res = "Hello world from JavaScript";
+//     return res.split(" ");
+// }
+// console.log(ajratish());
+
+// 15.
+// function index() {
+//     let res = "Hello, world!";
+//     let res1 = res.substring(0, 5);
+//     return res1;
+// }
+// console.log(index());
+
+// 16.
+// function kichikKatta() {
+//     let res = "Hello, WORLD!";
+//     let res1 = res.toLowerCase();
+//     let res2 = res1.toUpperCase();
+//     return res2;
+// }
+// console.log(kichikKatta());
+
+// 17.
